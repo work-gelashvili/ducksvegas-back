@@ -27,17 +27,17 @@ app.use("/", api.rollback);
 app.use("/", api.createUser);
 app.use("/", api.auth);
 app.use("/", api.createNewUser);
-app.use("/", api.changePassword);
-app.use("/", api.generateNewPassword);
-app.use("/", api.updateProfileInfo);
-app.use("/", api.gamesList);
-app.use("/", api.openGame);
+// app.use("/", api.changePassword);
+// app.use("/", api.generateNewPassword);
+// app.use("/", api.updateProfileInfo);
+// app.use("/", api.gamesList);
+// app.use("/", api.openGame);
 app.use("/", api.getUserData);
-app.use("/", api.generateWalletAddress);
-app.use("/", api.notifications);
+// app.use("/", api.generateWalletAddress);
+// app.use("/", api.notifications);
 app.use("/", api.requireWithdrawal);
-app.use("/", api.notificationsPayout);
-app.use("/", api.getNotifications);
+// app.use("/", api.notificationsPayout);
+// app.use("/", api.getNotifications);
 
 // ===== Health Check =====
 app.get("/", (req, res) => {
