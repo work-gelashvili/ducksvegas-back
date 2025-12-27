@@ -19,7 +19,7 @@ app.use(jsonParser);
 app.use(urlencodedParser);
 app.use(device.capture());
 
-app.use(express.static(path.resolve(__dirname, "../client/build")));
+app.use(express.static(path.resolve(__dirname, "client/build")));
 app.use("/", api.getUserBalance);
 app.use("/", api.getBalance);
 app.use("/", api.depositMoney);
@@ -41,7 +41,7 @@ app.use("/", api.notificationsPayout);
 app.use("/", api.getNotifications);
 app.use("/static", express.static(path.join(__dirname, "public")));
 app.use("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+  res.sendFile(path.join(__dirname, "client/build", "index.html"));
 });
 
 // Handle GET requests to /api route
