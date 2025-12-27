@@ -19,7 +19,7 @@ app.use(jsonParser);
 app.use(urlencodedParser);
 app.use(device.capture());
 
-app.use(express.static(path.resolve(__dirname, "../client/build")));
+// app.use(express.static(path.resolve(__dirname, "../client/build")));
 app.use("/", api.getUserBalance);
 app.use("/", api.getBalance);
 app.use("/", api.depositMoney);
@@ -39,15 +39,15 @@ app.use("/", api.notifications);
 app.use("/", api.requireWithdrawal);
 app.use("/", api.notificationsPayout);
 app.use("/", api.getNotifications);
-app.use("/static", express.static(path.join(__dirname, "public")));
-app.use("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
-});
+// app.use("/static", express.static(path.join(__dirname, "public")));
+// app.use("/*", (req, res) => {
+  // res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+// });
 
 // Handle GET requests to /api route
-app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
-});
+// app.get("/", (req, res) => {
+//   res.json({ message: "Hello from server!" });
+// });
 
 // All other GET requests not handled before will return our React app
 // app.get('*', (req, res) => {

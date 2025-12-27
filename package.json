@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "cd client && npm install && npm run build",
+    // "build": "cd client && npm install && npm run build",
     "restart": "pm2 restart index.js",
     "stop": "pm2 stop index.js",
     "startpm2": "pm2 start index.js"

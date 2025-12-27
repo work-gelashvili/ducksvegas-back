@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="14px" viewBox="0 0 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Actions-/-Navigation-/-menu-/-32" transform="translate(-4.000000, -9.000000)" fill="#8698A2">
+            <path d="M5,21 L27,21 C27.5522847,21 28,21.4477153 28,22 C28,22.5522847 27.5522847,23 27,23 L5,23 C4.44771525,23 4,22.5522847 4,22 C4,21.4477153 4.44771525,21 5,21 Z M5,9 L27,9 C27.5522847,9 28,9.44771525 28,10 C28,10.5522847 27.5522847,11 27,11 L5,11 C4.44771525,11 4,10.5522847 4,10 C4,9.44771525 4.44771525,9 5,9 Z M5,15 L27,15 C27.5522847,15 28,15.4477153 28,16 C28,16.5522847 27.5522847,17 27,17 L5,17 C4.44771525,17 4,16.5522847 4,16 C4,15.4477153 4.44771525,15 5,15 Z" id="Fill"></path>
+        </g>
+    </g>
+</svg>
