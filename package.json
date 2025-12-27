@@ -4,8 +4,7 @@
   "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "cd client && npm install && npm run build",
+    "start": "node index.js",
     "restart": "pm2 restart index.js",
     "stop": "pm2 stop index.js",
     "startpm2": "pm2 start index.js"
